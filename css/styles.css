@@ -554,5 +554,5 @@ img {
 
 .footer__icon-link:hover,
 .footer__icon-link:focus {
-    background-color: black; /* var(--color-turquoise); */
+    background-color: var(--color-turquoise);
 }
