@@ -96,11 +96,6 @@ img {
         0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
-.header-container {
-    display: flex;
-    align-items: center;
-}
-
 .main-nav {
     display: flex;
     align-items: center;
@@ -302,7 +297,6 @@ img {
     display: flex;
     gap: 24px;
     justify-content: center;
-    /* Додано для узгодженості з попереднім кодом */
 }
 
 .team-member {
@@ -312,7 +306,6 @@ img {
         0px 1px 6px 0px rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px;
     text-align: center;
-    /* Додано для узгодженості з попереднім кодом */
 }
 
 .team-member-img {
@@ -331,7 +324,6 @@ img {
     letter-spacing: 0.02em;
     text-align: center;
     margin-top: 15px;
-    /* Додано для узгодженості з попереднім кодом */
     margin-bottom: 8px;
 }
 
@@ -379,6 +371,17 @@ img {
 /* Portfolio Section */
 .portfolio {
     padding: 96px 0 120px;
+}
+
+
+.portfolio-title{  /*Додав заголовок портфоліо який був загубленим*/
+    font-weight: 700;
+    font-size: 36px;
+    color: var(--color-charcoal-blue); 
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 72px;
 }
 
 .portfolio-filter__list {
